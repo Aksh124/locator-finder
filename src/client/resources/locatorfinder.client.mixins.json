@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "locatorfinder.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"AzimuthWaypointAccess",
+		"ChunkWaypointAccess",
+		"ClientWaypointManagerMixin",
+		"Vec3iWaypointAccess"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
